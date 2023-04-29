@@ -18,6 +18,7 @@
 
 .this-ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -44,12 +45,6 @@
   cursor: default !important;
 }
 
-/* .this-ul > li > a:hover {
-  color: #fd8000;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-} */
-
 .this-ul > li :hover {
   color: #fd8000;
   transition: all 0.2s ease-in-out;
@@ -59,38 +54,6 @@
 .logo-img {
   padding: 4px 0 0 10px;
 }
-
-/* this-nav>ul {
-    margin: 30px 0 0 60px;
-    flex-basis: 65%;
-}
-
-this-nav>ul>li {
-    display: inline;
-    padding: 30px 15px;
-    margin: 0 10px;
-}
-
-.this-ul>li>a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-}
-
-.logo-img {
-    flex-basis: 35%;
-    margin: 5px 0 0 70px;
-} */
-
-/* .active {
-   background-color: #FD8000;
-}
-
-.this-nav>ul>li:hover {
-    background-color: #FD8000;
-    color: #000000;
-    cursor: pointer;
-} */
 
 /* page1 */
 .content-page1 {
